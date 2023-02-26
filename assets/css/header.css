@@ -1,7 +1,19 @@
+/*Colores*/
+:root {
+    --color-amarillo: yellow;
+/*Fuentes*/
+    --color-principal: #233333;
+    --titulos-principales: 'Press Start 2P', sans-serif;
+    --subtitulos:'Roboto Mono';
+    --parrafos: 'Montserrat';
+}
+
 .headerPrincipal{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(../img/header__foto.jpg);
+    background-position: 2rem -39rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }

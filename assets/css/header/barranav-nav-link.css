@@ -1,0 +1,22 @@
+.barranav__nav__link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color:whitesmoke;
+    margin-right: .6rem;
+    text-decoration: none;
+}
+
+.barranav__nav__link--email{
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.barranav__nav__link:hover {
+    color: var(--color-amarillo);
+    text-decoration: underline;
+}
+
+.barranav__nav__link--email:hover {
+    color: orange;
+    text-decoration: underline;
+}

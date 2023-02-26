@@ -1,0 +1,19 @@
+@keyframes cambio-color {
+    45% {
+        color: hsla(32, 92%, 49%, 0.911);
+    }
+
+    50% {
+        color: hsla(60, 100%, 50%, 0.897);
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+.logo__nombre--pagina {
+    font-family: var(--titulos-principales);
+    font-size: 1rem;
+    animation: cambio-color 1s infinite;
+}
