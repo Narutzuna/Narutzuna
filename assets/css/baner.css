@@ -1,0 +1,5 @@
+.banner{
+    display: flex;
+    background-color: var(--color-morado-background--claro);
+    padding: 5rem;
+}

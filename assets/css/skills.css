@@ -1,0 +1,7 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+    background-color: var(--color-morado-background--claro);
+}

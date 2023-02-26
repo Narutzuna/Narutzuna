@@ -1,0 +1,7 @@
+.banner__redes__item{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 1rem;
+    font-family: var(--titulos-principales);
+}

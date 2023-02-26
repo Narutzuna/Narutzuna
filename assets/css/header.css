@@ -1,11 +1,17 @@
 /*Colores*/
 :root {
     --color-amarillo: yellow;
+    --color-morado-background--claro:hsla(250, 89%, 71%, 0.541);
+    --color-naranja-background--claro: rgb(252, 198, 147);
+    --negro-sombra:rgb(22, 19, 19);
+    --negro-texto:rgb(29, 28, 28);
+    --rojo-resaltar:rgba(250, 7, 7, 0.87);
+    --azul-resaltar:rgb(33, 30, 214);
 /*Fuentes*/
     --color-principal: #233333;
     --titulos-principales: 'Press Start 2P', sans-serif;
-    --subtitulos:'Roboto Mono';
-    --parrafos: 'Montserrat';
+    --subtitulos:'Roboto Mono', sans-serif;
+    --parrafos: 'Montserrat', Arial;
 }
 
 .headerPrincipal{

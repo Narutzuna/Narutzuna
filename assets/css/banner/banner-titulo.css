@@ -1,0 +1,17 @@
+.banner__titulo{
+    font-family: var(--subtitulos);
+    font-size: 3.25rem;
+    line-height: 3.8125rem;
+    text-align: center;
+    text-shadow: 0 3px 3px var(--negro-sombra);
+    color: var(--negro-texto);
+}
+
+.banner__titulo--nombres{
+    color: var(--rojo-resaltar);
+}
+
+.banner__titulo--apellidos{
+    color: var(--azul-resaltar);
+}
+

@@ -1,0 +1,7 @@
+.sobremi__parrafo{
+    font-family: var(--parrafos);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: justify;
+}
