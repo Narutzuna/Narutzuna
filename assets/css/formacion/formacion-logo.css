@@ -1,0 +1,6 @@
+.formacion__logo {
+    width: 100%;
+    height: 20rem;
+    background-color: var(--blanco-contenedor);
+    border-style: solid;
+}
