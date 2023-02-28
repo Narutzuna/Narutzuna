@@ -1,0 +1,6 @@
+.hobbie__titulo{
+    font-family: var(--titulos-principales);
+    font-size: .7rem;
+    margin-top: 1rem;
+    color: var(--rojo-resaltar);
+}
