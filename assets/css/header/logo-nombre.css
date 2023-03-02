@@ -1,19 +1,17 @@
-@keyframes cambio-color {
-    45% {
-        color: hsla(32, 92%, 49%, 0.911);
+@keyframes parpadear{
+
+    to{
+        color:var(--blanco-contenedor);
+        text-shadow: 0 0 5px #c403ff, 0 0 15px #c403ff, 0 0 30px #c403ff, 0 0 50px #c403ff;
     }
 
-    50% {
-        color: hsla(60, 100%, 50%, 0.897);
-    }
-
-    100% {
-        color: green;
-    }
 }
+
 
 .logo__nombre--pagina {
     font-family: var(--titulos-principales);
     font-size: 1rem;
-    animation: cambio-color 1s infinite;
+    color: rgb(110, 110, 110);
+    text-shadow: none;
+    animation: parpadear 2s infinite backwards;
 }

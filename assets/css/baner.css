@@ -1,5 +1,6 @@
 .banner{
     display: flex;
-    background-color: var(--color-naranja-background--claro);
+    /* background-color: var(--color-naranja-background--claro); */
+    background-image: url('../img/fondo_baner.jpg');
     padding: 5rem;
 }

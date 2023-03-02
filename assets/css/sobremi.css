@@ -1,5 +1,6 @@
 .sobremi{
     display: flex;
-    background-color: var(--color-morado-background--claro);
+    /* background-color: var(--color-azul-bacground--neon); */
+    background-image: url(../img/1145990.jpg);
     padding: 3rem;
 }

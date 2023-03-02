@@ -1,3 +1,4 @@
 .banner__redes{
     display: flex;
+    background-color: var(--rojo-resaltar-degradado);
 }
