@@ -15,6 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Press+Start+2P&family=Roboto+Mono:wght@300;400;700&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/header.css">
@@ -58,6 +61,9 @@
     <link rel="stylesheet" href="./assets/css/formacion/formacion.css">
     <link rel="stylesheet" href="./assets/css/formacion/formacion-logo-container.css">
     <link rel="stylesheet" href="./assets/css/formacion/formacion-logo.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-contenido.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-titulo.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-fecha.css">
 
 </head>
 
@@ -87,18 +93,18 @@
             <div class="banner__contenido">
                 <div class="banner__informacion">
                     <h1 class="banner__titulo">Hola, Mi nombre es <span class="banner__titulo--nombres"> Gibran
-                            Eduardo</span> <span class="banner__titulo--apellidos"><br>Hernández Vilchis</span> y
-                        construyo páginas web</h1>
+                            Eduardo</span> <span class="banner__titulo--apellidos"><br>Hernández Vilchis</span> 
+                            y construyo páginas web</h1>
                     <p class="banner__parrafo">Estoy formado como Lic. en Letras Hispanicas y actualmente estoy
                         participando en el proyecto de Oracle ONE Alura Latam como desarrollador Frontend.</p>
                     <ul class="banner__redes">
-                        <li class="banner__redes__item">Githube<a href="#" class="banner__redes__link">&#127801;</a>
+                        <li class="banner__redes__item">Githube<a href="#" class="banner__redes__link">&#128165</a>
                         </li>
-                        <li class="banner__redes__item">Linkedin<a href="#" class="banner__redes__link">&#127801;</a>
+                        <li class="banner__redes__item">Linkedin<a href="#" class="banner__redes__link">&#128165</a>
                         </li>
-                        <li class="banner__redes__item">Instagram<a href="#" class="banner__redes__link">&#127801;</a>
+                        <li class="banner__redes__item">Instagram<a href="#" class="banner__redes__link">&#128165</a>
                         </li>
-                        <li class="banner__redes__item">Currículum<a href="#" class="banner__redes__link">&#127801;</a>
+                        <li class="banner__redes__item">Currículum<a href="#" class="banner__redes__link">&#128165</a>
                         </li>
                     </ul>
                 </div>
@@ -219,28 +225,36 @@
             <h2 class="formaciones__titulo">Formación Academica</h2>
             <div class="formaciones__contenido">
                 <div class="formacion">
-                    <img src="./assets/img/CCHsur.jpg" alt="Logo CCH" class="formacion__logo">
-                    <div>
+                    <div class="formacion__logo__container">
+                        <img src="./assets/img/LogoReducido/CCHsur.png" alt="Logo CCH" class="formacion__logo">
+                    </div>
+                    <div class="formacion__contenido">
                         <h3 class="formacion__titulo">Colegio de Ciencias y Humanides (CCH)</h3>
                         <p class="formacion__fecha">2012-2014</p>
                     </div>
                 </div>
                 <div class="formacion">
-                    <img src="./assets/img/FFyL.png" alt="Logo FFYL" class="formacion__logo">
+                    <div class="formacion__logo__container">
+                        <img src="./assets/img/FFyL.png" alt="Logo FFYL" class="formacion__logo">
+                    </div>
                     <div class="formacion__contenido">
                         <h3 class="formacion__titulo">Lic.Lengua y Letras Hispanicas (UNAM)</h3>
                         <p class="formacion__fecha">2015-2021</p>
                     </div>
                 </div>
                 <div class="formacion">
-                    <img src="./assets/img/GIL.jpg" alt="Icono del GIL" class="formacion__logo">
+                    <div class="formacion__logo__container">
+                        <img src="./assets/img/GIL.jpg" alt="Icono del GIL" class="formacion__logo">
+                    </div>
                     <div class="formacion__contenido">
-                        <h3 class="formacion__titulo">Servicio Social: Grupo de Ingeniería Lingüistica</h3>
+                        <h3 class="formacion__titulo"> Grupo de Ingeniería Lingüistica</h3>
                         <p class="formacion__fecha">Abr-2021 a Sep-2021</p>
                     </div>
                 </div>
                 <div class="formacion">
-                    <img src="./assets/img/Alura.png" alt="Icono Alura" class="formacion__logo">
+                    <div class="formacion__logo__container">
+                        <img src="./assets/img/Alura.png" alt="Icono Alura" class="formacion__logo">
+                    </div>
                     <div class="formacion__contenido">
                         <h3 class="formacion__titulo">Curso Oracle ONE Latam en Frontend</h3>
                         <p class="formacion__fecha">Nov-2022 a Actualidad</p>
@@ -249,14 +263,13 @@
             </div>
         </section>
         <!-- Experiencia -->
-
         <section class="experienciaPro">
-            <h2 class="experenciaPro__titulo">Contacto</h2>
+            <h2 class="experenciaPro__titulo">Proyectos</h2>
         </section>
         <!-- Contacto -->
         <section class="contacto">
             <h2 class="contacto_titulo"></h2>
-            <p class="contacto__texto"></p>
+            <p class="contacto__texto">Contacto</p>
             <label for="firstname">Nombre</label>
             <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required>
             <label for="firstname">E-mail</label>

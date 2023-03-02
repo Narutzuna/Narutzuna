@@ -3,4 +3,5 @@
     font-size: .7rem;
     margin-top: 1rem;
     color: var(--azul-resaltar);
+    text-shadow: 1px 2px 2px var(--negro-sombra);
 }

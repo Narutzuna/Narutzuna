@@ -3,5 +3,6 @@
     list-style: none;
     align-items: center;
     margin-right: 1rem;
-    font-family: var(--titulos-principales);
+    font-family: var(--parrafos);
+    font-size: 1.58rem;
 }

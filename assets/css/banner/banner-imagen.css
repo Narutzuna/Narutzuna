@@ -1,4 +1,4 @@
 .banner__imagen{
     border-radius: 100%;
-    box-shadow:  10px 30px 15px var(--negro-sombra);
+    box-shadow:  3px 3px 3px 3px var(--negro-sombra);
 }

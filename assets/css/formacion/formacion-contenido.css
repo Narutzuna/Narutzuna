@@ -1,0 +1,7 @@
+.formacion__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 1rem;
+}

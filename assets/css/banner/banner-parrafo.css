@@ -1,5 +1,5 @@
 .banner__parrafo{
-    font-family: var(--parrafos);
+    font-family: var(--subtitulos);
     font-size: 1.375rem;
     line-height: 1.625rem;
     color: var(--negro-texto);
