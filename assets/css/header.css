@@ -2,10 +2,11 @@
 :root {
     --color-amarillo: yellow;
     --color-amarillo-neon:#c2ff05;
-    --color-naranja-neon:#ffa300;
+    --color-naranja-neon:#ff7301;
     --color-morado-background--claro:hsla(251, 96%, 9%, 0.925);
-    --color-naranja-background--claro: hsla(29, 88%, 77%, 0.993);
+    --color-naranja-background--claro: hsla(29, 97%, 14%, 0.993);
     --color-azul-bacground--neon: #2E3F8E;
+    --color-background-skill-targeta-degradado:#d9d3f856;
     --negro-sombra:rgb(22, 19, 19);
     --negro-texto:rgb(29, 28, 28);
     --rojo-resaltar:#FF0303;
@@ -13,6 +14,7 @@
     --azul-resaltar-degradado:#1f8fb888;
     --rojo-resaltar-degradado:#ff030388;
     --blanco-contenedor: #ffffff;
+    --apagado:rgb(110, 110, 110);
 /*Fuentes*/
     --color-principal: #233333;
     --titulos-principales: 'Press Start 2P', sans-serif;

@@ -4,11 +4,16 @@
     align-items: flex-start;
     justify-content: flex-end;
     box-sizing: border-box;
-    background-color: #d9d3f8af;
+    background-color: var(--color-background-skill-targeta-degradado);
     width: 10.875rem;
     height: 10.875rem;
     padding: 1rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
-    box-shadow: 0 4px 4px var(--negro-sombra);
+    box-shadow: none;
+}
+
+.skill:hover{
+    box-shadow: 0 0px 5px var(--azul-resaltar), 0 0px 15px var(--azul-resaltar), 0 0px 30px var(--azul-resaltar), 0px 0px 50px var(--azul-resaltar);
+    text-shadow: 0px 0px 5px var(--azul-resaltar), 0px 0px 15px var(--azul-resaltar), 0px 0px 30px var(--azul-resaltar);
 }

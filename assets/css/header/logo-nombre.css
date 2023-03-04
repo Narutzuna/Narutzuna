@@ -13,5 +13,5 @@
     font-size: 1rem;
     color: rgb(110, 110, 110);
     text-shadow: none;
-    animation: parpadear 2s infinite backwards;
+    animation: parpadear 1.8s steps(2, start) infinite;
 }

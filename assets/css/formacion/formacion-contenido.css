@@ -4,4 +4,10 @@
     justify-content: start;
     align-items: start;
     margin-top: 1rem;
+    color: var(--blanco-contenedor);
+    /* text-shadow: 0 0 5px var(--blanco-contenedor); */
+}
+
+.formacion__contenido:hover{
+    text-shadow: 0 0 5px var(--azul-resaltar), 0 0 15px var(--azul-resaltar);
 }

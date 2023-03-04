@@ -15,9 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Press+Start+2P&family=Roboto+Mono:wght@300;400;700&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/header.css">
@@ -37,7 +37,6 @@
     <link rel="stylesheet" href="./assets/css/banner/banner-imagen.css">
     <link rel="stylesheet" href="./assets/css/sobremi.css">
     <link rel="stylesheet" href="./assets/css/sobremi/sobremi-contenido.css">
-    <link rel="stylesheet" href="./assets/css/sobremi/sobre-foto.css">
     <link rel="stylesheet" href="./assets/css/sobremi/sobremi_texto.css">
     <link rel="stylesheet" href="./assets/css/sobremi/sobremi-titulo.css">
     <link rel="stylesheet" href="./assets/css/sobremi/sobremi-parrafo.css">
@@ -64,9 +63,13 @@
     <link rel="stylesheet" href="./assets/css/formacion/formacion-contenido.css">
     <link rel="stylesheet" href="./assets/css/formacion/formacion-titulo.css">
     <link rel="stylesheet" href="./assets/css/formacion/formacion-fecha.css">
-
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-foto.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-contendio.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-texto.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-parrafo.css">
 </head>
-
 <body>
     <header class="headerPrincipal">
         <div class="container__logo">
@@ -93,8 +96,8 @@
             <div class="banner__contenido">
                 <div class="banner__informacion">
                     <h1 class="banner__titulo">Hola, Mi nombre es <span class="banner__titulo--nombres"> Gibran
-                            Eduardo</span> <span class="banner__titulo--apellidos"><br>Hernández Vilchis</span> 
-                            y construyo páginas web</h1>
+                            Eduardo</span> <span class="banner__titulo--apellidos"><br>Hernández Vilchis</span>
+                        y construyo páginas web</h1>
                     <p class="banner__parrafo">Estoy formado como Lic. en Letras Hispanicas y actualmente estoy
                         participando en el proyecto de Oracle ONE Alura Latam como desarrollador Frontend.</p>
                     <ul class="banner__redes">
@@ -114,7 +117,6 @@
         </section>
         <!-- Información sobre mi -->
         <section class="sobremi">
-            <div class="sobremi__foto"></div>
             <div class="sobremi__contenido">
                 <div class="sobremi__texto">
                     <h2 class="sobremi__titulo">Sobre mi</h2>
@@ -268,18 +270,31 @@
         </section>
         <!-- Contacto -->
         <section class="contacto">
-            <h2 class="contacto_titulo"></h2>
-            <p class="contacto__texto">Contacto</p>
-            <label for="firstname">Nombre</label>
-            <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required>
-            <label for="firstname">E-mail</label>
-            <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required>
-            <label for="firstname"></label>
-            <input type="text" name="firstname" id="firstname" placeholder="Asunto" autocomplete="on" required>
-            <p>
-                <textarea name="messege" id="messege" cols="30" rows="10"
-                    placeholder="Type your message here. Let go!!!"></textarea>
-            </p>
+            <div class="contacto__foto"></div>
+            <div class="contacto__contendio">
+                <div class="contacto__texto">
+                    <h2 class="contacto__titulo">Contacto</h2>
+                    <p class="contacto__parrafo">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                </div>
+                <div class="contacto__contenido__formulario">
+                    <fieldset class="contacto__formulario">
+                        <legend class="contacto__formulario__legend">Formulario</legend>
+                        <label for="nombre" class="contacto__nombre">Nombre</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required
+                            class="contacto__nombre__input">
+                        <label for="contacto__correo">E-mail</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required
+                            class="contacto__nombre__input">
+                        <label for="contancto__asunto"></label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Asunto" autocomplete="on"
+                            required class="contacto__asunto__input">
+                        <p>
+                            <textarea name="messege" id="messege" cols="30" rows="10" placeholder="Mensaje"
+                                class="contacto__mensaje__input"></textarea>
+                        </p>
+                    </fieldset>
+                </div>
+            </div>
         </section>
         <!-- footer -->
         <p>

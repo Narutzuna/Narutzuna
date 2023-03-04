@@ -4,4 +4,6 @@
     text-align: center;
     padding: 2rem;
     margin-bottom: 2rem;
+    color: var(--blanco-contenedor);
+    text-shadow: 0 0 5px var(--rojo-resaltar),0 0 15px var(--rojo-resaltar), 0 0 30px var(--rojo-resaltar);
 }
