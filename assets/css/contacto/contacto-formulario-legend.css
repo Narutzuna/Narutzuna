@@ -1,0 +1,10 @@
+.contacto__formulario__legend{
+    width: 100vh;
+    font-family: var(--prueba1);
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--blanco-contenedor);
+    text-shadow: 0 0 5px var(--color-morado-neon), 
+    0 0 15px var(--color-morado-neon), 
+    0 0 30px var(--color-morado-neon);
+}

@@ -1,0 +1,12 @@
+.contacto__mensaje__input{
+    display: flex;
+    box-sizing: 41rem;
+    resize: none;
+    width: 96%;
+    padding: 0.8rem;
+}
+
+.contacto__mensaje__input::placeholder{
+    color: var(--trasparente-blanco);
+    font-family: var(--subtitulos);
+}

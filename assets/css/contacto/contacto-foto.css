@@ -1,8 +1,8 @@
 .contacto__foto{
-    height: 104vh;
+    height: 124vh;
     background-image: url(../../img/Zorro.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: left;
-    width: 60%;
+    width: 40%;
 }

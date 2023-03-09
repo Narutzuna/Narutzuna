@@ -69,6 +69,12 @@
     <link rel="stylesheet" href="./assets/css/contacto/contacto-texto.css">
     <link rel="stylesheet" href="./assets/css/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="./assets/css/contacto/contacto-parrafo.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-formulario-legend.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-nombre.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-nombre-input.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-mensaje-input.css">
+
 </head>
 <body>
     <header class="headerPrincipal">
@@ -276,22 +282,24 @@
                     <h2 class="contacto__titulo">Contacto</h2>
                     <p class="contacto__parrafo">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 </div>
+                <!-- Formulario  -->
                 <div class="contacto__contenido__formulario">
                     <fieldset class="contacto__formulario">
                         <legend class="contacto__formulario__legend">Formulario</legend>
                         <label for="nombre" class="contacto__nombre">Nombre</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required
+                        <input type="text" name="firstname" id="firstname" placeholder="Hafiz Hereftenief" autocomplete="on" required
                             class="contacto__nombre__input">
-                        <label for="contacto__correo">E-mail</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Jane" autocomplete="on" required
+                        <label for="email" class="contacto__nombre">E-mail</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Correo_generico@email.com" autocomplete="on" required
                             class="contacto__nombre__input">
                         <label for="contancto__asunto"></label>
                         <input type="text" name="firstname" id="firstname" placeholder="Asunto" autocomplete="on"
-                            required class="contacto__asunto__input">
+                            required class="contacto__nombre__input">
                         <p>
                             <textarea name="messege" id="messege" cols="30" rows="10" placeholder="Mensaje"
                                 class="contacto__mensaje__input"></textarea>
                         </p>
+                        <button class="contacto__button" type="submit">Enviar</button>
                     </fieldset>
                 </div>
             </div>

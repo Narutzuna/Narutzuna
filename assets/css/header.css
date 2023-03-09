@@ -1,10 +1,11 @@
 /*Colores*/
 :root {
-    --color-amarillo: yellow;
+    /* --color-amarillo-neon: #eeff06; */
     --color-amarillo-neon:#c2ff05;
     --color-naranja-neon:#ff7301;
-    --color-morado-background--claro:hsla(251, 96%, 9%, 0.925);
-    --color-naranja-background--claro: hsla(29, 97%, 14%, 0.993);
+    --color-morado-neon:#c403ff;
+    --color-morado-background--claro:#09012dec;
+    /* --color-naranja-background--claro: hsla(29, 97%, 14%, 0.993); */
     --color-azul-bacground--neon: #2E3F8E;
     --color-background-skill-targeta-degradado:#d9d3f856;
     --negro-sombra:rgb(22, 19, 19);
@@ -13,10 +14,12 @@
     --azul-resaltar:#1f8fb8;
     --azul-resaltar-degradado:#1f8fb888;
     --rojo-resaltar-degradado:#ff030388;
+    --color-amarillo-degradado:#ffff05d8;
     --blanco-contenedor: #ffffff;
-    --apagado:rgb(110, 110, 110);
+    --apagado:#6e6e6ea4;
+    --trasparente-blanco: #b8b8b8 ;
 /*Fuentes*/
-    --color-principal: #233333;
+    /* --color-principal: #233333; */
     --titulos-principales: 'Press Start 2P', sans-serif;
     --subtitulos:'Roboto Mono', sans-serif;
     --parrafos: 'Montserrat', Arial;

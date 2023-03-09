@@ -1,0 +1,10 @@
+.contacto__nombre__input{
+    padding: 0.8rem;
+    margin-bottom: 2px;
+    border: 1px;
+}
+
+.contacto__nombre__input::placeholder{
+    color: var(--trasparente-blanco);
+    font-family: var(--subtitulos);
+}

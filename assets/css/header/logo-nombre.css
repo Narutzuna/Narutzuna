@@ -2,7 +2,10 @@
 
     to{
         color:var(--blanco-contenedor);
-        text-shadow: 0 0 5px #c403ff, 0 0 15px #c403ff, 0 0 30px #c403ff, 0 0 50px #c403ff;
+        text-shadow: 0 0 5px var(--color-morado-neon), 
+        0 0 15px var(--color-morado-neon), 
+        0 0 30px var(--color-morado-neon), 
+        0 0 50px var(--color-morado-neon);
     }
 
 }
@@ -11,7 +14,7 @@
 .logo__nombre--pagina {
     font-family: var(--titulos-principales);
     font-size: 1rem;
-    color: rgb(110, 110, 110);
+    color: var(--apagado);
     text-shadow: none;
     animation: parpadear 1.8s steps(2, start) infinite;
 }

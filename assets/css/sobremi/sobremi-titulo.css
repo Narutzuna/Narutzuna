@@ -3,6 +3,8 @@
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    text-shadow: 0px 0px 5px var(--azul-resaltar), 0px 0px 15px var(--azul-resaltar), 0px 0px 30px var(--azul-resaltar);
+    text-shadow: 0px 0px 5px var(--azul-resaltar), 
+    0px 0px 15px var(--azul-resaltar), 
+    0px 0px 30px var(--azul-resaltar);
     color: var(--blanco-contenedor);
 }

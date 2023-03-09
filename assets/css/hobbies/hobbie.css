@@ -14,6 +14,11 @@
 }
 
 .hobbie:hover{
-    box-shadow: 0 0px 5px var(--rojo-resaltar), 0 0px 15px var(--rojo-resaltar), 0 0px 30px var(--rojo-resaltar), 0px 0px 50px var(--rojo-resaltar);
-    text-shadow: 0px 0px 5px var(--rojo-resaltar), 0px 0px 15px var(--rojo-resaltar), 0px 0px 30px var(--rojo-resaltar);
+    box-shadow: 0 0px 5px var(--rojo-resaltar), 
+    0 0px 15px var(--rojo-resaltar), 
+    0 0px 30px var(--rojo-resaltar), 
+    0px 0px 50px var(--rojo-resaltar);
+    text-shadow: 0px 0px 5px var(--rojo-resaltar), 
+    0px 0px 15px var(--rojo-resaltar), 
+    0px 0px 30px var(--rojo-resaltar);
 }

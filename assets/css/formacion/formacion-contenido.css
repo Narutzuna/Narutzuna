@@ -9,5 +9,6 @@
 }
 
 .formacion__contenido:hover{
-    text-shadow: 0 0 5px var(--azul-resaltar), 0 0 15px var(--azul-resaltar);
+    text-shadow: 0 0 5px var(--azul-resaltar), 
+    0 0 15px var(--azul-resaltar);
 }

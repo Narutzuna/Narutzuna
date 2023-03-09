@@ -3,5 +3,6 @@
     text-align: center;
     font-size: 2rem;
     color: var(--blanco-contenedor);
-    text-shadow: 0 0 5px var(--color-naranja-neon), 0 0 15px var(--color-naranja-neon), 0 0 30px var(--color-naranja-neon);
+    text-shadow: 0 0 5px var(--color-morado-neon), 
+    0 0 15px var(--color-morado-neon);
 }

@@ -6,7 +6,9 @@
     line-height: 2rem;
     text-align: justify;
     color: var(--blanco-contenedor);
-    background-color: black;
-    border: solid 2px var(--color-amarillo);
-    box-shadow: 0 0 5px var(--color-amarillo), 0 0 15px var(--color-amarillo),0 0 30px var(--color-amarillo);
+    background-color: #000000cb;
+    border: solid 2px var(--color-amarillo-neon);
+    box-shadow: 0 0 5px var(--color-amarillo-neon), 
+    0 0 15px var(--color-amarillo-neon),
+    0 0 30px var(--color-amarillo-neon);
 }

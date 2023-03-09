@@ -14,11 +14,13 @@
 }
 
 .barranav__nav__link:hover {
-    text-shadow: 0 0 5px var(--color-amarillo-neon), 0 0 15px var(--color-amarillo-neon);
+    text-shadow: 0 0 5px var(--color-amarillo-neon), 
+    0 0 15px var(--color-amarillo-neon);
     text-decoration: underline;
 }
 
 .barranav__nav__link--email:hover {
-    text-shadow: 0 0 5px var(--color-naranja-neon), 0 0 15px var(--color-naranja-neon);
+    text-shadow: 0 0 5px var(--color-naranja-neon), 
+    0 0 15px var(--color-naranja-neon);
     text-decoration: underline;
 }
