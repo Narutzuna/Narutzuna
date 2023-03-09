@@ -1,3 +1,21 @@
 .contacto__button{
-    width: 20%;
+    width: 9rem;
+    height: 3.1875rem;
+    margin-top: 3rem;
+    font-family: var(--subtitulos);
+    font-size: 1.3rem;
+    color: var(--blanco-contenedor);
+    background-color: var(--negro-sombra);
+    text-shadow: 0 0 5px var(--color-morado-neon),
+    0 0 15px var(--color-morado-neon),
+    0 0 30px var(--color-morado-neon),
+    0 0 50px var(--color-morado-neon);
+    
+}
+
+.contacto__button:hover{
+    cursor: pointer;
+    background-color:var(--negro-texto);
+    box-shadow: 0 0 5px var(--color-amarillo-neon),
+    0 0 15px var(--color-amarillo-neon);
 }
