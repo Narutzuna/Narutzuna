@@ -1,0 +1,6 @@
+.experienciaPro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-morado-background--claro);
+}

@@ -1,0 +1,11 @@
+.experenciaPro{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 5rem 2rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.experenciaPro:nth-child(odd){
+    flex-direction: row-reverse;
+}
