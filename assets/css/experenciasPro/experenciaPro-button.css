@@ -1,7 +1,8 @@
-.contacto__button{
+.experenciaPro__button{
     width: 9rem;
     height: 3.1875rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
     font-family: var(--subtitulos);
     font-size: 1rem;
     color: var(--blanco-contenedor);
@@ -13,7 +14,7 @@
     
 }
 
-.contacto__button:hover{
+.experenciaPro__button:hover{
     cursor: pointer;
     background-color:var(--negro-texto);
     box-shadow: 0 0 5px var(--color-amarillo-neon),

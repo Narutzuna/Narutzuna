@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/header__foto.jpg);
+    background-position: 2rem -42rem;
+}
+
