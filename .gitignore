@@ -2,69 +2,69 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,images
 
 ### Images ###
-# JPEG
-#*.jpg
-# *.jpeg
-# *.jpe
-# *.jif
-# *.jfif
-# *.jfi
+#JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
 
 # JPEG 2000
-# *.jp2
-# *.j2k
-# *.jpf
-# *.jpx
-# *.jpm
-# *.mj2
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
 
 # JPEG XR
-# *.jxr
-# *.hdp
-# *.wdp
+*.jxr
+*.hdp
+*.wdp
 
-# # Graphics Interchange Format
-# *.gif
+# Graphics Interchange Format
+*.gif
 
-# # RAW
-# *.raw
+# RAW
+*.raw
 
-# # Web P
-# *.webp
+# Web P
+*.webp
 
-# # Portable Network Graphics
-# # *.png
+# Portable Network Graphics
+*.png
 
-# # Animated Portable Network Graphics
-# *.apng
+# Animated Portable Network Graphics
+*.apng
 
-# # Multiple-image Network Graphics
-# *.mng
+# Multiple-image Network Graphics
+*.mng
 
-# # Tagged Image File Format
-# *.tiff
-# *.tif
+# Tagged Image File Format
+*.tiff
+*.tif
 
-# # Scalable Vector Graphics
-# *.svg
-# *.svgz
+# Scalable Vector Graphics
+*.svg
+*.svgz
 
-# # Portable Document Format
-# *.pdf
+# Portable Document Format
+*.pdf
 
-# # X BitMap
-# *.xbm
+# X BitMap
+*.xbm
 
-# # BMP
-# *.bmp
-# *.dib
+# BMP
+*.bmp
+*.dib
 
-# # ICO
-# *.ico
+# ICO
+*.ico
 
-# # 3D Images
-# *.3dm
-# *.max
+# 3D Images
+*.3dm
+*.max
 
 ### Linux ###
 *~
@@ -87,8 +87,8 @@
 .AppleDouble
 .LSOverride
 
-# # Icon must end with two \r
-# Icon
+# Icon must end with two \r
+Icon
 
 
 # Thumbnails
