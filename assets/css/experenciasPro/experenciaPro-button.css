@@ -1,5 +1,5 @@
 .experenciaPro__button{
-    width: 9rem;
+    /* width: 9rem;
     height: 3.1875rem;
     margin-top: 3rem;
     margin-right: 1rem;
@@ -10,13 +10,17 @@
     text-shadow: 0 0 5px var(--color-morado-neon),
     0 0 15px var(--color-morado-neon),
     0 0 30px var(--color-morado-neon),
-    0 0 50px var(--color-morado-neon);
+    0 0 50px var(--color-morado-neon); */
     
 }
 
 .experenciaPro__button:hover{
-    cursor: pointer;
+    /* cursor: pointer;
     background-color:var(--negro-texto);
     box-shadow: 0 0 5px var(--color-amarillo-neon),
-    0 0 15px var(--color-amarillo-neon);
+    0 0 15px var(--color-amarillo-neon); */
+}
+
+@media screen and (min-width:768px){
+
 }

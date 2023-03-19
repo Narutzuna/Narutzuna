@@ -1,14 +1,11 @@
 .banner{
-    display: flex;
-    /* background-color: var(--color-naranja-background--claro); */
+    /* display: flex;
     background-image: url('../img/fondo_baner.jpg');
     padding: 5rem;
-    background-position: -30rem -7rem;
+    background-position: -30rem -7rem; */
 }
 
 @media screen and (min-width:768px){
-    
     .banner{   
-        width: 100%;
     }
     }

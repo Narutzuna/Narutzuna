@@ -1,8 +1,12 @@
 .contacto__titulo{
-    font-family: var(--prueba1);
+    /* font-family: var(--prueba1);
     text-align: center;
     font-size: 2rem;
     color: var(--blanco-contenedor);
     text-shadow: 0 0 5px var(--color-morado-neon), 
-    0 0 15px var(--color-morado-neon);
+    0 0 15px var(--color-morado-neon); */
+}
+
+@media screen and (min-width:768px){
+    
 }

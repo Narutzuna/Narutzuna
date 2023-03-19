@@ -1,10 +1,14 @@
 .banner__redes__item{
-    display: flex;
+    /* display: flex;
     list-style: none;
     align-items: center;
     margin-right: 1rem;
     font-family: var(--parrafos);
     color: var(--blanco-contenedor);
     text-shadow: 2px 5px 5px var(--negro-sombra);
-    font-size: 1.58rem;
+    font-size: 1.58rem; */
+}
+
+@media screen and (min-width:768px){
+    
 }

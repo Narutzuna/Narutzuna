@@ -1,4 +1,8 @@
 .banner__redes{
-    display: flex;
-    background-color: var(--rojo-resaltar-degradado);
+    /* display: flex;
+    background-color: var(--rojo-resaltar-degradado); */
+}
+
+@media screen and (min-width:768px){
+    
 }

@@ -1,5 +1,5 @@
 .sobremi__parrafo{
-    font-family: var(--subtitulos);
+    /* font-family: var(--subtitulos);
     padding: 2rem;
     font-size: .98rem;
     font-weight: 400;
@@ -10,5 +10,10 @@
     border: solid 2px var(--color-amarillo-neon);
     box-shadow: 0 0 5px var(--color-amarillo-neon), 
     0 0 15px var(--color-amarillo-neon),
-    0 0 30px var(--color-amarillo-neon);
+    0 0 30px var(--color-amarillo-neon); */
+}
+
+
+@media screen and (min-width:768px){
+    
 }

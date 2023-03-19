@@ -1,5 +1,5 @@
 .skill{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
@@ -10,15 +10,19 @@
     padding: 1rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
-    box-shadow: none;
+    box-shadow: none; */
 }
 
 .skill:hover{
-    box-shadow: 0 0px 5px var(--azul-resaltar), 
+    /* box-shadow: 0 0px 5px var(--azul-resaltar), 
     0 0px 15px var(--azul-resaltar), 
     0 0px 30px var(--azul-resaltar), 
     0px 0px 50px var(--azul-resaltar);
     text-shadow: 0px 0px 5px var(--azul-resaltar), 
     0px 0px 15px var(--azul-resaltar), 
-    0px 0px 30px var(--azul-resaltar);
+    0px 0px 30px var(--azul-resaltar); */
+}
+
+@media screen and (min-width:768px){
+    
 }

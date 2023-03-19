@@ -1,6 +1,6 @@
 /*Colores*/
 :root {
-    /* --color-amarillo-neon: #eeff06; */
+    --color-amarillo-neon: #eeff06;
     --color-amarillo-neon:#c2ff05;
     --color-naranja-neon:#ff7301;
     --color-morado-neon:#c403ff;
@@ -27,18 +27,22 @@
 }
 
 .headerPrincipal{
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
     background-image: url(../img/header__foto.jpg);
-    background-position: 12rem -42rem;
+    background-position: 12rem -42rem; */
 
 }
 
 @media screen and (min-width:768px){
     
 .headerPrincipal{   
-    width: 100%;
-    background-position: 2rem -42rem;
+    /* width: 100%;
+    background-position: 2rem -42rem; */
 }
+}
+
+@media screen and (min-width:768px){
+    
 }

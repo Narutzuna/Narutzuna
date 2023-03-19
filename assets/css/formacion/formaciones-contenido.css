@@ -1,6 +1,10 @@
 .formaciones__contenido {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+}
+
+@media screen and (min-width:768px){
+    
 }

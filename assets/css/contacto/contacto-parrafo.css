@@ -1,6 +1,10 @@
 .contacto__parrafo{
-    font-family: var(--subtitulos);
+    /* font-family: var(--subtitulos);
     color: var(--blanco-contenedor);
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.5rem; */
+}
+
+@media screen and (min-width:768px){
+    
 }

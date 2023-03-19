@@ -1,5 +1,5 @@
 .experenciasPro__titulo{
-    font-family: var(--prueba1);
+    /* font-family: var(--prueba1);
     color:var(--blanco-contenedor);
     font-size: 2rem;
     text-align: center;
@@ -7,5 +7,9 @@
     margin-bottom: 2rem;
     text-shadow: 0 0 5px var(--azul-resaltar),
     0 0 15px var(--azul-resaltar), 
-    0 0 30px var(--azul-resaltar);
+    0 0 30px var(--azul-resaltar); */
+}
+
+@media screen and (min-width:768px){
+    
 }

@@ -1,7 +1,11 @@
 .formacion__titulo{
-    font-family: var(--subtitulos);
+    /* font-family: var(--subtitulos);
     flex-wrap: wrap;
     text-align: center;
     font-size: 1rem;
-    margin-top: .5rem;
+    margin-top: .5rem; */
+}
+
+@media screen and (min-width:768px){
+    
 }

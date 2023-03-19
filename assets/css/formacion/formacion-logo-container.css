@@ -1,5 +1,5 @@
 .formacion__logo__container{
-    display: flex;
+    /* display: flex;
     width: 368px;
     height: 286px;
     align-items: center;
@@ -7,6 +7,9 @@
     background: var(--blanco-contenedor);
     box-shadow: 0 0 5px var(--azul-resaltar),
     0 0 15px var(--azul-resaltar),
-    0 0 30px var(--azul-resaltar);
+    0 0 30px var(--azul-resaltar); */
 }
 
+@media screen and (min-width:768px){
+    
+}

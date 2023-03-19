@@ -1,8 +1,12 @@
 .contacto__nombre{
-    font-family: var(--subtitulos);
+    /* font-family: var(--subtitulos);
     color: var(--negro-texto);
     background-color: var(--color-amarillo-neon);
     font-size: 1.2rem;
     margin-top: 0.6rem;
-    padding: 0.43rem;
+    padding: 0.43rem; */
+}
+
+@media screen and (min-width:768px){
+    
 }

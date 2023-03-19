@@ -1,5 +1,9 @@
 .hobbie__titulo{
-    font-family: var(--titulos-principales);
+    /* font-family: var(--titulos-principales);
     font-size: .7rem;
-    margin-top: 1rem;
+    margin-top: 1rem; */
+}
+
+@media screen and (min-width:768px){
+    
 }

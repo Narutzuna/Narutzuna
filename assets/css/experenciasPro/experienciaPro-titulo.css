@@ -1,9 +1,13 @@
 .experienciaPro__titulo{
-    font-family: var(--titulos-principales);
+    /* font-family: var(--titulos-principales);
     font-size: 1.5rem;
     margin-top: 1rem;
     color: var(--blanco-contenedor);
     text-shadow: 0 0 5px var(--rojo-resaltar),
     0 0 15px var(--rojo-resaltar),
-    0 0 30px var(--rojo-resaltar);
+    0 0 30px var(--rojo-resaltar); */
+}
+
+@media screen and (min-width:768px){
+    
 }
