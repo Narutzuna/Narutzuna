@@ -13,8 +13,14 @@
 
 .logo__nombre--pagina {
     font-family: var(--titulos-principales);
-    font-size: 1rem;
+    font-size: .5rem;
     color: var(--apagado);
     text-shadow: none;
     animation: parpadear 1.8s steps(2, start) infinite;
+}
+
+@media screen and (min-width:768px){
+    .logo__nombre--pagina{
+        font-size: 1rem;
+    }
 }

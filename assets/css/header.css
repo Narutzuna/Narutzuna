@@ -31,7 +31,14 @@
     align-items: center;
     justify-content: space-between;
     background-image: url(../img/header__foto.jpg);
+    background-position: 12rem -42rem;
+
+}
+
+@media screen and (min-width:768px){
+    
+.headerPrincipal{   
+    width: 100%;
     background-position: 2rem -42rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+}
 }

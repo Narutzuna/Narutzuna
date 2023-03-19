@@ -1,3 +1,10 @@
 .banner__contenido{
     display: flex;
+    width: 100vw;
+}
+
+@media screen and (min-width:768px){
+    .banner__contenido{
+        display: flex;
+    }
 }

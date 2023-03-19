@@ -1,4 +1,13 @@
 .banner__imagen{
+    display: flex;
     border-radius: 100%;
     box-shadow:  0px 5px 15px var(--negro-sombra);
+    object-fit: cover;
+}
+
+@media screen and (min-width:768px){
+    .banner__imagen{
+        border-radius: 100%;
+        box-shadow:  0px 5px 15px var(--negro-sombra);
+    }
 }

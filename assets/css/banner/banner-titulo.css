@@ -1,6 +1,7 @@
 .banner__titulo{
     font-family: var(--titulos-principales);
-    font-size: 2rem;
+    width: 100vw;
+    font-size: .5rem;
     line-height: 3.8125rem;
     text-align:center;
     text-shadow: 2px 4px 4px var(--negro-sombra);
@@ -21,3 +22,12 @@
     0px 0px 50px var(--azul-resaltar);
 }
 
+
+@media screen and (min-width:768px){
+    .banner__titulo{
+        font-size: 2rem;
+        line-height: 3.8125rem;
+    }
+
+
+}
