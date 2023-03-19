@@ -1,9 +1,10 @@
 .banner__contenido{
-    /* display: flex; */
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:375px){
     .banner__contenido{
-        /* display: flex; */
+        flex-direction: row;
     }
 }

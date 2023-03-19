@@ -1,15 +1,15 @@
 /*Colores*/
 :root {
+/* Colores */
     --color-amarillo-neon: #eeff06;
     --color-amarillo-neon:#c2ff05;
     --color-naranja-neon:#ff7301;
     --color-morado-neon:#c403ff;
     --color-morado-background--claro:#09012dec;
-    /* --color-naranja-background--claro: hsla(29, 97%, 14%, 0.993); */
     --color-azul-bacground--neon: #2E3F8E;
     --color-background-skill-targeta-degradado:#d9d3f856;
-    --negro-sombra:rgb(22, 19, 19);
-    --negro-texto:rgb(29, 28, 28);
+    --negro-sombra:#161313;
+    --negro-texto:#1d1c1c;
     --rojo-resaltar:#FF0303;
     --azul-resaltar:#1f8fb8;
     --azul-resaltar-degradado:#1f8fb888;
@@ -19,30 +19,33 @@
     --apagado:#6e6e6ea4;
     --trasparente-blanco: #b8b8b8 ;
 /*Fuentes*/
-    /* --color-principal: #233333; */
-    --titulos-principales: 'Press Start 2P', sans-serif;
+    --titulos-acarde: 'Press Start 2P', sans-serif;
     --subtitulos:'Roboto Mono', sans-serif;
     --parrafos: 'Montserrat', Arial;
-    --prueba1: 'Tourney', cursive;
+    --titulos-dobleraya: 'Tourney', cursive;
 }
 
 .headerPrincipal{
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background-image: url(../img/header__foto.jpg);
-    background-position: 12rem -42rem; */
+    background-position: 12rem -42rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width:375px){
+    .headerPrincipal{
+        padding: 0 1rem;
+    }
+    
 
 }
 
 @media screen and (min-width:768px){
-    
-.headerPrincipal{   
-    /* width: 100%;
-    background-position: 2rem -42rem; */
-}
-}
-
-@media screen and (min-width:768px){
-    
+    .headerPrincipal{   
+        padding: 0 2rem;
+        background-position: 2rem -42rem; 
+    }
 }
