@@ -1,6 +1,7 @@
 .banner__imagen{
     display: flex;
     align-items: center;
+    align-content: center;
     object-fit: cover;
     object-position: center;
     max-width: 100%;
@@ -10,17 +11,19 @@
     box-shadow:  0px 5px 15px var(--negro-sombra)
 }
 
-@media screen and (min-width:348px){
+@media screen and (min-width:378px){
     .banner__imagen{
-        width: 317px;
+        max-width: none; 
+        width: 146px;
         height: 146px;
+
     }
 }
 
-@media screen and (min-width:770px){
+@media screen and (min-width:768px){
     .banner__imagen{
-        width: 411px;
-        height: 268px;
+        width: 368px;
+        height: 368px;
     }
        
     

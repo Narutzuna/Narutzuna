@@ -1,17 +1,22 @@
 .banner__parrafo{
-    /* width: 100vw;
-    font-family: var(--subtitulos);
     padding: 1rem;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     line-height: 2rem;
     color: var(--blanco-contenedor);
-    text-shadow: 2px 5px 5px var(--negro-sombra);
-    background-color: var(--azul-resaltar-degradado); */
+    font-family: var(--parrafos)
 }
 
+@media screen and (min-width:375px){
+    .banner__parrafo{
+        font-size: 1.2rem;
+        line-height: 2rem; 
+    }
+
+}
 @media screen and (min-width:768px){
     .banner__parrafo{
-        /* font-size: 2rem;
-        line-height: 2rem; */
+        font-size: 2rem;
+        line-height: 2.5rem; 
     }
 }
+

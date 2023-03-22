@@ -1,14 +1,23 @@
 .banner__redes__item{
-    /* display: flex;
+    font-family: var(--contenido-cursiva);
     list-style: none;
+    display: flex;
     align-items: center;
-    margin-right: 1rem;
-    font-family: var(--parrafos);
+    padding: 0.1rem;
     color: var(--blanco-contenedor);
-    text-shadow: 2px 5px 5px var(--negro-sombra);
-    font-size: 1.58rem; */
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width:375px){
+    .banner__redes__item{
+        font-size: 1rem;
+        padding: 0.2rem;
+        justify-content: space-between;
+    }    
 }
 
 @media screen and (min-width:768px){
-    
+    .banner__redes__item{
+        font-size: 1.58rem;
+    }
 }

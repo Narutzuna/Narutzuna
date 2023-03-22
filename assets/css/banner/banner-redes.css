@@ -1,8 +1,11 @@
 .banner__redes{
-    /* display: flex;
-    background-color: var(--rojo-resaltar-degradado); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 @media screen and (min-width:768px){
-    
+    .banner__redes{
+        flex-wrap: nowrap;
+    }
 }
