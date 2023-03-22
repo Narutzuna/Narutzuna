@@ -1,6 +1,7 @@
 .logo__imagen{
     display: flex;
-    max-width: 20%; 
+    max-width: 10%; 
+    padding-right: .2rem;
 }
 
 
@@ -14,5 +15,8 @@
 }
 
 @media screen and (min-width:768px){
-    
+    .logo__imagen{
+        max-width: 30%;
+        margin-right: .6rem;
+    }
 }

@@ -5,7 +5,7 @@
     --color-amarillo-neon:#c2ff05;
     --color-naranja-neon:#ff7301;
     --color-morado-neon:#c403ff;
-    --color-morado-background--claro:#09012dec;
+    --color-morado-background:#09012dec;
     --color-azul-bacground--neon: #2E3F8E;
     --color-background-skill-targeta-degradado:#d9d3f856;
     --negro-sombra:#161313;
@@ -19,6 +19,9 @@
     --apagado:#6e6e6ea4;
     --trasparente-blanco: #b8b8b8 ;
 /*Fuentes*/
+    --titulo-logo: 'Dancing Script', cursive;
+    --contenido-cursiva: 'EB Garamond', serif;
+    --contenido-normal:'Cormorant Garamond', serif;
     --titulos-acarde: 'Press Start 2P', sans-serif;
     --subtitulos:'Roboto Mono', sans-serif;
     --parrafos: 'Montserrat', Arial;

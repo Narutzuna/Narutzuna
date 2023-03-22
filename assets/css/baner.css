@@ -3,6 +3,8 @@
     background-image: url('../img/fondo_baner.jpg');
     padding: 5rem;
     background-position: -30rem -7rem; */
+    display: flex;
+    background-color: var(--color-morado-background);
 }
 
 @media screen and (min-width:768px){

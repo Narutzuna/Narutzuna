@@ -1,13 +1,27 @@
 .banner__imagen{
-    /* display: flex;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    width: 98px;
+    height: 98px;
     border-radius: 100%;
-    box-shadow:  0px 5px 15px var(--negro-sombra);
-    object-fit: cover; */
+    box-shadow:  0px 5px 15px var(--negro-sombra)
 }
 
-@media screen and (min-width:768px){
-    /* .banner__imagen{
-        border-radius: 100%;
-        box-shadow:  0px 5px 15px var(--negro-sombra);} */
+@media screen and (min-width:348px){
+    .banner__imagen{
+        width: 317px;
+        height: 146px;
+    }
+}
+
+@media screen and (min-width:770px){
+    .banner__imagen{
+        width: 411px;
+        height: 268px;
+    }
+       
     
 }
