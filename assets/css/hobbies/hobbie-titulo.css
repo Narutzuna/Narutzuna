@@ -1,9 +1,19 @@
 .hobbie__titulo{
-    /* font-family: var(--titulos-principales);
-    font-size: .7rem;
-    margin-top: 1rem; */
+    font-family: var(--contenido-normal);
+    font-size: .85rem;
+    padding: .5rem;
+}
+
+@media screen and (min-width:365px){
+    .hobbie__titulo{
+        font-size: 1rem;
+        padding: .5rem;
+    }
 }
 
 @media screen and (min-width:768px){
-    
+    .hobbie__titulo{
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
 }

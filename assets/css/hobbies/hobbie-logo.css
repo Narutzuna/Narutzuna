@@ -1,8 +1,19 @@
 .hobbie__logo{
-    /* width: 4rem;
-    height: 4rem; */
+    width: 50%;
+    height: 60%;
+    padding: .5rem;
 }
 
+@media screen and (min-width:375px){
+.hobbie__logo{
+    width: 2.18rem;
+    height: 2.312rem;
+}   
+} 
+
 @media screen and (min-width:768px){
-    
+.hobbie__logo{
+    width: 4rem;
+    height: 4rem;
+}
 }

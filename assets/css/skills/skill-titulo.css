@@ -1,12 +1,9 @@
 .skill__titulo{
-    font-family: var(--titulos-principales);
+    font-family: var(--contenido-normal);
     font-size: .85rem;
     padding: .5rem;
-    /* font-family: var(--titulos-principales);
-    
-    margin-top: 1rem;
-    color: var(--blanco-contenedor); */
 }
+
 @media screen and (min-width:365px){
     .skill__titulo{
         font-size: 1rem;

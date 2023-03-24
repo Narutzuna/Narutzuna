@@ -23,7 +23,6 @@
 }
 
 @media screen and (min-width:768px){
-    /*box-shadow: none;*/
     .skill{
         width: 11rem;
         height: 10.875rem;
@@ -37,6 +36,7 @@
         0px 0px 50px var(--azul-resaltar);
         text-shadow: 0px 0px 5px var(--azul-resaltar), 
         0px 0px 15px var(--azul-resaltar), 
-        0px 0px 30px var(--azul-resaltar);
+        0px 0px 30px var(--azul-resaltar),
+        0px 0px 50px var(--azul-resaltar);
     }
 }
