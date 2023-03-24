@@ -1,8 +1,8 @@
 .skills{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--color-morado-background--claro); */
+    background-color: var(--color-morado-background);
 }
 
 @media screen and (min-width:768px){

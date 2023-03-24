@@ -25,25 +25,26 @@
     }
 }
 
-@media screen and (min-width:868px){
+@media screen and (min-width:1038px){
     
      .barranav__nav__link{
         display: flex;
         font-family: var(--contenido-normal);
-        font-size: 1rem;
+        font-size: 1.2rem;
         color:whitesmoke;
         margin-right: .8rem;
         text-decoration: none; 
     }
 
     .barranav__nav__link--email{
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-shadow: none; 
     }
 
     .barranav__nav__link:hover{
-        text-shadow: 0 0 5px var(--blanco-contenedor), 
-        0 0 15px var(--blanco-contenedor);
+        text-shadow: 0 0 5px var(--color-amarillo-neon), 
+        0 0 15px var(--color-amarillo-neon),
+        0 0 30px var(--color-amarillo-neon);
         text-decoration: none; 
     }
 

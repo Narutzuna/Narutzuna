@@ -1,19 +1,26 @@
 .sobremi__parrafo{
-    /* font-family: var(--subtitulos);
-    padding: 2rem;
-    font-size: .98rem;
-    font-weight: 400;
-    line-height: 2rem;
-    text-align: justify;
+    font-family: var(--parrafos);
+    font-size: .7rem;
     color: var(--blanco-contenedor);
+    padding: 1rem 0.6rem 0.6rem;
     background-color: #000000cb;
     border: solid 2px var(--color-amarillo-neon);
     box-shadow: 0 0 5px var(--color-amarillo-neon), 
-    0 0 15px var(--color-amarillo-neon),
-    0 0 30px var(--color-amarillo-neon); */
+    0 0 15px var(--color-amarillo-neon);
+    line-height: 1rem;
 }
 
+@media screen and (min-width:375px){
+    .sobremi__parrafo{
+        font-size: .9rem;
+        line-height: 1.3rem;
+    }
+}
 
 @media screen and (min-width:768px){
+    .sobremi__parrafo{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
     
 }

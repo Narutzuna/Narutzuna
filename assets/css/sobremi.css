@@ -1,10 +1,18 @@
 .sobremi{
-    /* display: flex; */
-    /* background-color: var(--color-azul-bacground--neon); */
-    /* background-image: url(../img/1145990.jpg); */
-    /* padding: 3rem; */
+    display: flex; 
+    padding: 0.5rem;
+    background-color: var(--color-morado-background);
+    text-align: justify;
 }
 
-@media screen and (min-width:768px){
-    
+@media screen and (min-width:375px){
+    .sobremi{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (min-width:875px){
+    .sobremi{
+        padding: 2rem;
+    }
 }
