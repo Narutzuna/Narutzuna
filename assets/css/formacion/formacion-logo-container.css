@@ -1,15 +1,25 @@
 .formacion__logo__container{
-    /* display: flex;
-    width: 368px;
-    height: 286px;
+    display: flex;
+    width: 17.5rem;
+    height: 7.357rem;
+    padding: 1rem;
     align-items: center;
     justify-content: center;
     background: var(--blanco-contenedor);
     box-shadow: 0 0 5px var(--azul-resaltar),
     0 0 15px var(--azul-resaltar),
-    0 0 30px var(--azul-resaltar); */
+    0 0 30px var(--azul-resaltar);
+}
+
+@media screen and (min-width:375px){
+    .formacion__logo__container{
+        width: 18.5rem;
+    }
 }
 
 @media screen and (min-width:768px){
-    
+   .formacion__logo__container{
+    width: 23rem;
+    height: 17.875rem;
+   } 
 }

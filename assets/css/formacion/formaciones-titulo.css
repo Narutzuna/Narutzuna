@@ -1,15 +1,21 @@
 .formaciones__titulo{
-    /* font-family: var(--prueba1);
-    font-size: 2rem;
     text-align: center;
-    padding: 2rem;
-    margin-bottom: 2rem;
     color: var(--blanco-contenedor);
+    font-family: var(--contenido-cursiva);
     text-shadow: 0 0 5px var(--rojo-resaltar),
     0 0 15px var(--rojo-resaltar), 
-    0 0 30px var(--rojo-resaltar); */
+    0 0 30px var(--rojo-resaltar);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:375px){
+    .formaciones__titulo{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width:768px){
-    
+    .formaciones__titulo{
+        font-size: 2.5rem;
+    }
 }

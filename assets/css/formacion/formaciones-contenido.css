@@ -1,10 +1,13 @@
 .formaciones__contenido {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-wrap: wrap; */
+    margin-left: 1rem;
 }
 
-@media screen and (min-width:768px){
-    
+@media screen and (min-width:700px){
+    .formaciones__contenido{
+        justify-content: space-around;
+    }
 }

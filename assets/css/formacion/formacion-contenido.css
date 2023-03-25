@@ -1,17 +1,17 @@
 .formacion__contenido{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    margin-top: 1rem;
-    color: var(--blanco-contenedor); */
+    margin-top: 0.5rem;
+    color: var(--blanco-contenedor);
+    /*  */
 }
 
-.formacion__contenido:hover{
-    /* text-shadow: 0 0 5px var(--rojo-resaltar), 
-    0 0 15px var(--rojo-resaltar); */
-}
 
 @media screen and (min-width:768px){
-    
+    .formacion__contenido:hover{
+        text-shadow: 0 0 5px var(--rojo-resaltar), 
+        0 0 15px var(--rojo-resaltar); 
+    }
 }
