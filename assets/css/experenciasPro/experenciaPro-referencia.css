@@ -1,8 +1,17 @@
 .experenciaPro__referencia{
-    /* font-family: var(--subtitulos);
-    color: var(--blanco-contenedor); */
+    font-family: var(--subtitulos);
+    color: var(--blanco-contenedor);
+    font-size: 0.7rem;
 }
 
-@media screen and (min-width:768px){
-    
+@media screen and (min-width:375px){
+  .experenciaPro__referencia{
+    font-size: 0.9rem;
+  }  
+}
+
+@media screen and (min-width:600px){
+    .experenciaPro__referencia{
+        font-size: 1.5rem;
+    }
 }

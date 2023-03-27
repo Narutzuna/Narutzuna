@@ -1,15 +1,21 @@
 .experenciasPro__titulo{
-    /* font-family: var(--prueba1);
-    color:var(--blanco-contenedor);
-    font-size: 2rem;
     text-align: center;
-    padding: 2rem;
-    margin-bottom: 2rem;
+    color: var(--blanco-contenedor);
+    font-family: var(--contenido-cursiva);
     text-shadow: 0 0 5px var(--azul-resaltar),
     0 0 15px var(--azul-resaltar), 
-    0 0 30px var(--azul-resaltar); */
+    0 0 30px var(--azul-resaltar);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:375px){
+    .experenciasPro__titulo{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width:768px){
-    
+    .experenciasPro__titulo{
+        font-size: 2.5rem;
+    }
 }

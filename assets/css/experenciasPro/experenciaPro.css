@@ -1,15 +1,24 @@
 .experenciaPro{
-    /* display: flex;
-    flex-direction: row;
-    margin: 1rem 5rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
 
-.experenciaPro:nth-child(odd){
-    /* flex-direction: row-reverse; */
+@media screen and (min-width:375px){
+
 }
 
 @media screen and (min-width:768px){
-    
+    .experenciaPro{
+        flex-direction: row;
+    }
+    .experenciaPro:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+
+    .experenciaPro{
+        margin: 2rem;
+    } 
 }

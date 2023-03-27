@@ -1,13 +1,20 @@
 .experienciaPro__titulo{
-    /* font-family: var(--titulos-principales);
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    font-family: var(--subtitulos);
+    font-size: 0.9rem;
     color: var(--blanco-contenedor);
     text-shadow: 0 0 5px var(--rojo-resaltar),
     0 0 15px var(--rojo-resaltar),
-    0 0 30px var(--rojo-resaltar); */
+    0 0 30px var(--rojo-resaltar);
 }
 
-@media screen and (min-width:768px){
-    
+@media screen and (min-width:375px){
+    .experienciaPro__titulo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (min-width:600px){
+    .experienciaPro__titulo{
+        font-size: 2rem;
+    }
 }

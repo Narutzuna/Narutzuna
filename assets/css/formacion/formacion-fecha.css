@@ -1,7 +1,17 @@
 .formacion__fecha{
-    /* font-family: var(--parrafos); */
+    font-family: var(--parrafos); 
+    font-size: 0.6rem;
+    margin-top: .2rem; 
+}
+
+@media screen and (min-width:375px){
+    .formacion__fecha{
+        font-size: 0.8rem;
+    } 
 }
 
 @media screen and (min-width:768px){
-    
+    .formacion__fecha{
+        font-size: 0.9rem;
+    }
 }

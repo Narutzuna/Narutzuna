@@ -1,0 +1,16 @@
+.experienciaPro__imagen{
+    max-width:100% ;
+    width: 18.5rem;
+}
+
+@media screen and (min-width:375px){
+    .experienciaPro__imagen{
+      width: 46.25rem;
+    }  
+  }
+
+@media screen and (min-width:750){
+    .experienciaPro__imagen{
+        width: 47rem;
+      }  
+}
