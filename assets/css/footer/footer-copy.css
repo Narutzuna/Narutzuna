@@ -1,12 +1,21 @@
 .footer__copy{
-    /* font-family: var(--subtitulos);
+    font-family: var(--subtitulos);
     color: var(--blanco-contenedor);
+    font-size: 0.7rem;
     text-shadow: 0 0 5px var( --color-naranja-neon),
     0 0 15px var( --color-naranja-neon),
     0 0 30px var( --color-naranja-neon);
-    margin: .5rem; */
+    margin: .5rem;
+}
+
+@media screen and (min-width:375px){
+    .footer__copy{
+        font-size: 0.8rem;
+    } 
 }
 
 @media screen and (min-width:768px){
-    
+    .footer__copy{
+        font-size: 1rem; 
+    }
 }

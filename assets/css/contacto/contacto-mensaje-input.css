@@ -1,16 +1,26 @@
 .contacto__mensaje__input{
-    /* display: flex;
-    box-sizing: 41rem;
+    display: flex;
     resize: none;
-    width: 96%;
-    padding: 0.8rem; */
+    width: 90%;
+    padding: 0.8rem;
 }
 
 .contacto__mensaje__input::placeholder{
-    /* color: var(--trasparente-blanco);
-    font-family: var(--subtitulos); */
+    color: var(--trasparente-blanco);
+    font-family: var(--subtitulos); 
+}
+
+@media screen and (min-width:590px){
+    .contacto__mensaje__input{
+        font-size: 1rem;
+        width: 95%; 
+    }
 }
 
 @media screen and (min-width:768px){
-
+    .contacto__mensaje__input{
+        font-size: 1.5rem;
+        box-sizing: 41rem;
+        width: 96%; 
+    }
 }

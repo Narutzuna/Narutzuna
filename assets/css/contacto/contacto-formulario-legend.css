@@ -1,14 +1,21 @@
 .contacto__formulario__legend{
-    /* width: 100vh;
-    font-family: var(--prueba1);
+    font-family: var(--contenido-cursiva);
     font-size: 1.8rem;
     text-align: center;
     color: var(--blanco-contenedor);
     text-shadow: 0 0 5px var(--color-morado-neon), 
     0 0 15px var(--color-morado-neon), 
-    0 0 30px var(--color-morado-neon); */
+    0 0 30px var(--color-morado-neon);
+}
+
+@media screen and (min-width:375px){
+    .contacto__titulo{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width:768px){
-    
+    .contacto__titulo{
+        font-size: 2.5rem;
+    }
 }

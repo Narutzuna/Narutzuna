@@ -1,12 +1,16 @@
 .contacto__foto{
-    /* height: 124vh;
-    background-image: url(../../img/Zorro.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: left;
-    width: 40%; */
+    background-image: none;
 }
 
 @media screen and (min-width:768px){
-
+    .contacto__foto{
+    background-image: url(../../img/Zorro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    max-width: 100%;
+    width: 29rem;
+    max-height: 100%;
+    height:  61.0625rem;
+    }
 }

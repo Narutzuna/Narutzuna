@@ -1,14 +1,34 @@
 .contacto__nombre__input{
-    /* padding: 0.8rem;
-    margin-bottom: 2px;
-    border: 1px; */
+    padding: 0.5rem;
+    margin-bottom: 1px;
+    border: 1px;    
+    font-size: 0.8rem;
 }
 
 .contacto__nombre__input::placeholder{
-    /* color: var(--trasparente-blanco);
-    font-family: var(--subtitulos); */
+     color: var(--trasparente-blanco);
+    font-family: var(--subtitulos); 
+}
+
+@media screen and (min-width:375px){
+    .contacto__nombre__input{
+        padding: 0.8rem;
+        margin-bottom: 2px;
+        border: 1px;    
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:375px){
+    .contacto__nombre__input{
+        font-size: 1rem;
+        padding: 0.45rem;
+    } 
 }
 
 @media screen and (min-width:768px){
-    
+    .contacto__nombre__input{
+        font-size: 1.5rem;
+        padding: 0.48rem;
+    } 
 }

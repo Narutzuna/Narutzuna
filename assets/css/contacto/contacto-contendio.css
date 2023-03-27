@@ -1,10 +1,17 @@
 .contacto__contendio{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     padding: 1rem;
-    height: 120vh; */
 } 
 
+@media screen and (min-width:375px){
+    .contacto__contendio{
+        padding: 1.5rem;
+    }
+}
+
 @media screen and (min-width:768px){
-    
+    .contacto__contendio{
+        padding: 2rem;
+    }
 }
