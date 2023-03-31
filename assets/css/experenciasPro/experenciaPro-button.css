@@ -4,20 +4,66 @@
     height: 2.5rem;
     font-family: var(--subtitulos);
     font-size: 0.7rem;
+    background-color: transparent;
     color: var(--blanco-contenedor);
-    background-color: var(--negro-sombra);
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: var(--negro-sombra); */
+    overflow: hidden;
+    
+    margin: 0.29rem;
+    transition: all ease-out 200ms;
+    animation: efecto-texto-luz 3s ease-in infinite normal both;
+}
+
+.experenciaPro__button:hover{ 
+    box-shadow: 0 0 5px var(--color-morado-neon);
     text-shadow: 0 0 5px var(--color-morado-neon),
     0 0 15px var(--color-morado-neon),
     0 0 30px var(--color-morado-neon),
     0 0 50px var(--color-morado-neon);
-    margin: 0.29rem;
+    animation: none !important;
 }
 
-.experenciaPro__button:hover{
-    cursor: pointer;
-    background-color:var(--negro-texto);
-    box-shadow: 0 0 5px var(--color-amarillo-neon),
-    0 0 15px var(--color-amarillo-neon);
+.experenciaPro__button::before,
+.experenciaPro__button::after{
+    border-color: var(--color-morado-neon);
+    animation: none !important;
+}
+
+.experenciaPro__button::before{
+    filter: blur(4px);
+}
+
+.experenciaPro__button:active{
+    color: var(--color-morado-neon);
+    text-shadow: 0 0 0 var(--color-morado-neon);
+}
+
+.experenciaPro__button::before,
+.experenciaPro__button::after{
+    border-color: var(--color-morado-neon);
+    animation: none !important;
+}
+
+@keyframes efecto-texto-luz {
+    from, 20%, 36%, to {
+        color: #b20cdb;
+    }
+    23% {
+        color: #d66af7;
+    }
+}
+
+@keyframes efecto-luz {
+    from, 60%, 70%, 95% {
+        border-color: #3c0b50;
+    }
+    65%, to {
+        border-color: #cf38ed;
+    }
 }
 
 @media screen and (min-width:375px){
