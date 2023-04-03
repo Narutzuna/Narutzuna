@@ -27,7 +27,13 @@
     --titulos-dobleraya: 'Tourney', cursive;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .headerPrincipal{
+    position: sticky;
+    top: 0rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
