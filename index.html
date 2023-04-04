@@ -30,8 +30,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/base/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/base/reset.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/base/variables.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/header/container-logo.css">
     <link rel="stylesheet" href="./assets/css/header/logo-imagen.css">
@@ -98,6 +99,8 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-copy.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-fecha.css">
+    <!-- Componentes -->
+    <link rel="stylesheet" href="./assets/css/components/inputs.css">
 </head>
 
 <body>
@@ -131,21 +134,27 @@
                     <p class="banner__parrafo">Estoy formado como Lic. en Letras Hispanicas y actualmente estoy
                         participando en el proyecto de Oracle ONE Alura Latam como desarrollador Frontend.</p>
                     <ul class="banner__redes">
-                        <li class="banner__redes__item"><a href="https://github.com/Narutzuna/Narutzuna" class="banner__redes__link"><img class="banner__redes__item" src="./assets/img/redes/github.png" alt="Githube"></a>
+                        <li class="banner__redes__item"><a href="https://github.com/Narutzuna/Narutzuna"
+                                class="banner__redes__link"><img class="banner__redes__item"
+                                    src="./assets/img/redes/github.png" alt="Githube"></a>
                         </li>
                         <li class="banner__redes__item"><a href="https://www.linkedin.com/in/gibran-vilchis-32b3a0130;
-                        "class="banner__redes__link"><img class="banner__redes__item" src="./assets/img/redes/linkedin.png" alt=""></a>
+                        " class="banner__redes__link"><img class="banner__redes__item"
+                                    src="./assets/img/redes/linkedin.png" alt=""></a>
                         </li>
-                        <li class="banner__redes__item"><a href="https://www.instagram.com/gibraneduardo523/" class="banner__redes__link"><img class="banner__redes__item" src="./assets/img/redes/instagram.png" alt=""></a>
+                        <li class="banner__redes__item"><a href="https://www.instagram.com/gibraneduardo523/"
+                                class="banner__redes__link"><img class="banner__redes__item"
+                                    src="./assets/img/redes/instagram.png" alt=""></a>
                         </li>
-                        <li class="banner__redes__item"><a href="./cv.html" class="banner__redes__link"><img class="banner__redes__item" src="./assets/img/redes/cv.png" alt=""></a>
+                        <li class="banner__redes__item"><a href="./cv.html" class="banner__redes__link"><img
+                                    class="banner__redes__item" src="./assets/img/redes/cv.png" alt=""></a>
                         </li>
                     </ul>
                 </div>
                 <figure class="banner__fig"><img src="./assets/img/Foto_perfil.jpg" alt="Imagen de mi"
                         class="banner__imagen" width="368px" height="368px"></figure>
             </div>
-        </section >
+        </section>
         <!-- Información sobre mi -->
         <section class="sobremi" id="sobremi">
             <div class="sobremi__contenido">
@@ -299,7 +308,8 @@
         <section class="experienciaPro" id="proyectos">
             <h2 class="experenciasPro__titulo">Experencia Profesional</h2>
             <div class="experenciaPro">
-                <img class="experienciaPro__imagen" src="./assets/img/ProyectosPro/Rectangle.png" alt="Imagen del proyecto">
+                <img class="experienciaPro__imagen" src="./assets/img/ProyectosPro/Rectangle.png"
+                    alt="Imagen del proyecto">
                 <div class="experenciaPro__contenido">
                     <h2 class="experienciaPro__titulo">Codificador</h2>
                     <p class="experenciaPro__referencia">Challenge Alura Codificador</p>
@@ -308,7 +318,8 @@
                 </div>
             </div>
             <div class="experenciaPro">
-                <img class="experienciaPro__imagen" src="./assets/img/ProyectosPro/Rectangle (2).png" alt="Imagen del proyecto">
+                <img class="experienciaPro__imagen" src="./assets/img/ProyectosPro/Rectangle (2).png"
+                    alt="Imagen del proyecto">
                 <div class="experenciaPro__contenido">
                     <h2 class=" experienciaPro__titulo">E-comerce</h2>
                     <p class="experenciaPro__referencia">Challenge Alura Comerce</p>
@@ -317,7 +328,8 @@
                 </div>
             </div>
             <div class="experenciaPro">
-                <img class="experienciaPro__imagen" src="./assets/img/ProyectosPro/Rectangle (2).png" alt="Imagen del proyecto">
+                <img class="experienciaPro__imagen" src="./assets/img/ProyectosPro/Rectangle (2).png"
+                    alt="Imagen del proyecto">
                 <div class="experenciaPro__contenido">
                     <h2 class="experienciaPro__titulo">Porcentajes</h2>
                     <p class="experenciaPro__referencia">Proyecto Personal</p>
@@ -339,15 +351,18 @@
                 <div class="contacto__contenido__formulario">
                     <fieldset class="contacto__formulario">
                         <legend class="contacto__formulario__legend">Formulario</legend>
-                        <label for="nombre" class="contacto__nombre">Nombre</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Hafiz Hereftenief"
+                        <label for="nombre" class="contacto__nombre input-container--invalid" required data-tipo="nombre" required
+                            data-tipo="nombre">Nombre</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Ponga su nombre"
                             autocomplete="on" required class="contacto__nombre__input">
-                        <label for="email" class="contacto__nombre">E-mail</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Correo_generico@email.com"
-                            autocomplete="on" required class="contacto__nombre__input">
-                        <label for="contancto__asunto"></label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Asunto" autocomplete="on"
-                            required class="contacto__nombre__input">
+                        <span class="input-message-error">Este campo no es valido</span>
+                        <label for="email" class="contacto__nombre input-container--invalid">E-mail</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Correo_generico@email.com" autocomplete="on" required data-tipo="email" class="contacto__nombre__input">
+                        <span class="input-message-error">Este campo no es valido</span>
+                        <label for="contancto__asunto" class="contacto__nombre input-container--invalid">Asunto</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" autocomplete="on"
+                            required data-tipo="asunto" class="contacto__nombre__input">
+                            <span class="input-message-error">Este campo no es valido</span>
                         <p>
                             <textarea name="messege" id="messege" cols="30" rows="10" placeholder="Mensaje"
                                 class="contacto__mensaje__input"></textarea>
@@ -361,7 +376,7 @@
     <!-- footer -->
     <footer class="footer">
         <p class="footer__copy">
-             &copy; Gibran Eduardo
+            &copy; Gibran Eduardo
         </p>
         <p class="footer__fecha">
             2023

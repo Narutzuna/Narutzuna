@@ -1,0 +1,29 @@
+/*Colores*/
+:root {
+    /* Colores */
+        --color-amarillo-neon: #fcf801;
+        --color-naranja-neon:#ff7301;
+        --color-morado-neon:#c403ff;
+        --color-morado-background:#09012dec;
+        --color-azul-bacground--neon: #2E3F8E;
+        --color-background-skill-targeta-degradado:#d9d3f856;
+        --negro-sombra:#161313;
+        --negro-texto:#1d1c1c;
+        --rojo-resaltar:#FF0303;
+        --azul-resaltar:#1f8fb8;
+        --azul-resaltar-degradado:#1f8fb888;
+        --rojo-resaltar-degradado:#ff030388;
+        --color-amarillo-degradado:#ffff05d8;
+        --blanco-contenedor: #ffffff;
+        --apagado:#6e6e6ea4;
+        --trasparente-blanco: #b8b8b8 ;
+    /*Fuentes*/
+        --titulo-logo: 'Dancing Script', cursive;
+        --contenido-cursiva: 'EB Garamond', serif;
+        --contenido-normal:'Cormorant Garamond', serif;
+        --titulos-acarde: 'Press Start 2P', sans-serif;
+        --subtitulos:'Roboto Mono', sans-serif;
+        --parrafos: 'Montserrat', Arial;
+        --titulos-dobleraya: 'Tourney', cursive;
+    }
+    

@@ -1,0 +1,12 @@
+.input{
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--rojo-resaltar)
+}
+
+.input-container--invalid{
+    background-color: var(--rojo-resaltar);
+}
+
+.input-message-error{
+    color: var(--rojo-resaltar);
+}
