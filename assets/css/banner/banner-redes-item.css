@@ -1,23 +1,44 @@
 .banner__redes__item{
-    font-family: var(--contenido-cursiva);
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content:space-evenly;
     padding: 0.1rem;
-    color: var(--blanco-contenedor);
-    font-size: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--blanco-contenedor);
+    box-shadow:
+          0 0 10px rgba(0, 123, 255, .7),
+          0 0 40px rgba(0, 123, 255, .7),
+          0 0 100px rgba(0, 123, 255, .7);
 }
 
+.banner__redes__item:active{
+    box-shadow:
+        0 0 10px rgba(255, 0, 0, 0.7),
+        0 0 40px rgba(255, 0, 0, 0.7),
+        0 0 100px rgba(255, 0, 0, 0.7);
+}
 @media screen and (min-width:375px){
     .banner__redes__item{
-        font-size: 1rem;
         padding: 0.2rem;
         justify-content: space-between;
+        width: 3rem;
+        height: 3rem;
     }    
 }
 
 @media screen and (min-width:768px){
     .banner__redes__item{
-        font-size: 1.58rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .banner__redes__item:hover
+    {
+        box-shadow:
+        0 0 10px rgba(255, 0, 0, 0.7),
+        0 0 40px rgba(255, 0, 0, 0.7),
+        0 0 100px rgba(255, 0, 0, 0.7);
     }
 }
