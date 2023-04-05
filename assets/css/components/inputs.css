@@ -1,4 +1,4 @@
-.input{
+.input__mensaje__error{
     box-sizing: border-box;
     border-bottom: 1px solid var(--rojo-resaltar)
 }
