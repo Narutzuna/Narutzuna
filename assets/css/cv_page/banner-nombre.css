@@ -1,0 +1,10 @@
+.banner__titulo--nombres__CV{
+    font-family: var(--contenido-cursiva);
+    font-size: 2.43rem;
+}
+
+.banner__titulo--apellidos__CV{
+    font-family: var(--contenido-cursiva);
+    font-size: 2.43rem;
+    padding-bottom: 0.5rem;
+}

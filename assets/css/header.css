@@ -1,6 +1,7 @@
-
 html{
     scroll-behavior: smooth;
+    transition: .5s;
+    box-sizing: border-box;
 }
 
 .headerPrincipal{
