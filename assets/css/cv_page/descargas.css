@@ -1,4 +1,5 @@
 .descargar{
     display: flex;
-    justify-content: center;
+    margin-bottom: 1rem;
+    margin-left: 5.5rem;
 }

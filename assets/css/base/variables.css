@@ -1,6 +1,6 @@
 /*Colores*/
 :root {
-    /* Colores */
+    /* Colores Página Principal */
         --color-amarillo-neon: #fcf801;
         --color-naranja-neon:#ff7301;
         --color-morado-neon:#c403ff;
@@ -11,12 +11,16 @@
         --negro-texto:#1d1c1c;
         --rojo-resaltar:#FF0303;
         --azul-resaltar:#1f8fb8;
-        --azul-resaltar-degradado:#1f8fb888;
-        --rojo-resaltar-degradado:#ff030388;
+        --azul-resaltar-degradado:#1f8fb84f;
+        --rojo-resaltar-degradado:hsla(0, 100%, 51%, 0.329);
         --color-amarillo-degradado:#ffff05d8;
         --blanco-contenedor: #ffffff;
         --apagado:#6e6e6ea4;
         --trasparente-blanco: #b8b8b8 ;
+        /* Colores Página CV */
+        --amarillo-pastel:#fad889;
+        --rojo-pastel:#d79393;
+        
     /*Fuentes*/
         --titulo-logo: 'Dancing Script', cursive;
         --contenido-cursiva: 'EB Garamond', serif;

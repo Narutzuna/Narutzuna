@@ -1,0 +1,50 @@
+.experienciaLaboral{
+    margin: 1rem;
+}
+
+.experienciaLaboral__titulo{
+    font-family: var(--contenido-cursiva);
+    text-align: center;
+    margin: 1rem;
+}
+
+.experenciaLaboral__tabla{
+    padding: 0.5rem;
+}
+
+.experenciaLaboral__tabla__titulo{
+    font-family: var(--contenido-normal);
+    text-align: center;
+    padding: 1rem;
+    background: #e6f0af
+}
+
+.experenciaLaboral__tabla--parrafo, .experenciaLaboral__tabla__item{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.experenciaLaboral__tabla--parrafo{
+    text-align: center;
+    background-color: var(--rojo-resaltar-degradado);
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.experenciaLaboral__tabla__item, .experenciaLaboral__lista{
+    background: var(--azul-resaltar-degradado);
+    margin: 0;
+}
+
+.experenciaLaboral__tabla__item{
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.experenciaLaboral__tabla--fecha{
+    background-color: var(--amarillo-pastel);
+    margin: 0;
+    padding: 1rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+}

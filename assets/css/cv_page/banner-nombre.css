@@ -1,3 +1,6 @@
+.banner__titulo__CV {
+    text-align: center;
+}
 .banner__titulo--nombres__CV{
     font-family: var(--contenido-cursiva);
     font-size: 2.43rem;

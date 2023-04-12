@@ -1,3 +1,7 @@
 .banner__contenido{
     padding-right: 2rem;
 }
+
+@media screen and (min-width:375px){
+    
+}
