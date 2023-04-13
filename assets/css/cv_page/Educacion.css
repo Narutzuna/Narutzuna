@@ -1,0 +1,45 @@
+.educacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.educacion__titulo {
+    font-family: var(--contenido-cursiva);
+    text-align: center;
+    margin: 1rem;
+}
+
+.educacion__tabla{
+    padding: 0.5rem;
+}
+
+.educacion__titulo__UNAM{
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--contenido-normal);
+    background-color: var(--verde-tabla-background);
+}
+
+.educacion__titulo__entidad, .educacion__titulo__parrafo{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.educacion__titulo__entidad{
+    padding: 0.5rem;
+    background: var(--rojo-resaltar-degradado);
+}
+
+.educacion__titulo__parrafo{
+    margin: 0;
+    padding: 0.5rem;
+    background-color: var(--azul-resaltar-degradado);
+}
+
+.educacion__titulo__parrafo__anho{
+    background-color: var(--amarillo-pastel);
+    margin: 0;
+    padding: 1rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+}

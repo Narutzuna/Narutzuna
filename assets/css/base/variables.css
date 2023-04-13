@@ -19,8 +19,8 @@
         --trasparente-blanco: #b8b8b8 ;
         /* Colores Página CV */
         --amarillo-pastel:#fad889;
-        --rojo-pastel:#d79393;
-        
+        --rojo-pastel:#d79393c7;
+        --verde-tabla-background: #cef0af;
     /*Fuentes*/
         --titulo-logo: 'Dancing Script', cursive;
         --contenido-cursiva: 'EB Garamond', serif;

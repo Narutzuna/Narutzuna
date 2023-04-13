@@ -50,6 +50,8 @@
     <link rel="stylesheet" href="./assets/css/cv_page/descarga-contenido.css">
     <link rel="stylesheet" href="./assets/css/cv_page/descargas.css">
     <link rel="stylesheet" href="./assets/css/cv_page/experienciaLaboral.css">
+    <link rel="stylesheet" href="./assets/css/cv_page/Educacion.css">
+    <link rel="stylesheet" href="./assets/css/cv_page/curso-ponencia.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-copy.css">
     <link rel="stylesheet" href="./assets/css/footer/footer-fecha.css">
@@ -130,30 +132,30 @@
         </section>
         <section contenteditable="eduacion">
             <h1 class="educacion__titulo">Educación</h1>
-            <table>
-                <h2 class="educacion__titulo__UNAM">Universidad Autónoma de México
-                    (UNAM)
-                </h2>
+            <table class="educacion__tabla">
                 <tr>
                     <td>
-                        <h3 class="educacion__titulo__CCH">Colegio de Ciencias y Humanidades</h3>
+                        <h2 class="educacion__titulo__UNAM">Universidad Autónoma de México
+                            (UNAM)
+                        </h2>
+                        <h3 class="educacion__titulo__entidad">Colegio de Ciencias y Humanidades</h3>
                         <p class="educacion__titulo__parrafo">Bachillerato</p>
                     </td>
-                    <td class="educacion__titulo__parrafo">2012 - 2014</td>
+                    <td class="educacion__titulo__parrafo__anho">2012 - 2014</td>
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="educacion__titulo__filos">Facultad de Filosofía y Letras</h3>
+                        <h3 class="educacion__titulo__entidad">Facultad de Filosofía y Letras</h3>
                         <p class="educacion__titulo__parrafo">Licenciatura</p>
                     </td>
-                    <td class="educacion__titulo__parrafo">2015 - 2021</td>
+                    <td class="educacion__titulo__parrafo__anho">2015 - 2021</td>
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="educacion__titulo__oracle">Oracle ONE Latam</h3>
+                        <h2 class="educacion__titulo__UNAM">Oracle ONE Latam</h2>
                         <p class="educacion__titulo__parrafo">Programa Educativo</p>
                     </td>
-                    <td class="educacion__titulo__parrafo">Nov-2022 a Actualidad</td>
+                    <td class="educacion__titulo__parrafo__anho">Nov-2022 a Actualidad</td>
                 </tr>
             </table>
         </section>
@@ -162,8 +164,8 @@
             <table class="cursos__ponencias__tabla">
                 <tr>
                     <td>
-                        <h2 class="cursos_ponencias__nombre">Simón Rodríguez, pensador americano. Introducción sobre las fuentes de su vida </h2>
-                        <p>Seminario</p>
+                        <h2 class="cursos__ponencias__nombre">Simón Rodríguez, pensador americano. Introducción sobre las fuentes de su vida </h2>
+                        <p class="cursos__ponencias__parrafo">Seminario</p>
                     </td>
                     <td class="curso__ponencia__fecha">Febrero - Abril 2018</td>
                 </tr>
@@ -190,10 +192,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <h2>Introduction to Natural Language Processing</h2>
+                        <h2 class="cursos__ponencias__nombre">Introduction to Natural Language Processing</h2>
                         <p class="cursos__ponencias__parrafo">Curso</p>
                     </td>
-                    <td>22 de marzo del 2021</td>
+                    <td class="curso__ponencia__fecha">22 de marzo del 2021</td>
                 </tr>
                 <tr>
                     <td>
@@ -206,7 +208,7 @@
                 <tr>
                     <td>
                         <h2 class="cursos__ponencias__nombre">Curso de Fundamentos de Procesamiento de Lenguaje Natural con Python y NLTK</h2>
-                        <p>Curso</p>
+                        <p class="cursos__ponencias__parrafo">Curso</p>
                     </td>
                     <td class="curso__ponencia__fecha">16 de julio del 2022</td>
                 </tr>
@@ -220,16 +222,22 @@
                 <tr>
                     <td>
                         <h2 class="cursos__ponencias__nombre">Programa Oracle ONE Alura Latam</h2>
-                        <p class="cursos__ponencias__parrafo">Cursos</p>
+                        <details>
+                            <p><summary class="cursos__ponencias__parrafo summary" open>Cursos</summary></p>    
                         <ul>
-                            <li class="programa__one__titulo">Principiante en Programación G4 - ONE
+                            <details>
+                                <summary class="programa__one__titulo">Principiante en Programación G4 - ONE </summary>
+                            <li class="programa">
                                 <ul class="programa__one__contendio">
                                     <li class="programa__one__item">Lógica de programación</li>
                                     <li class="programa__one__item">Primeros pasos con CSS y HTML</li>
                                     <li class="programa__one__item">Git y Githube</li>
                                 </ul>
                             </li>
-                            <li class="programa__one__titulo">Front End G4 - ONE
+                            </details>
+                            <details>
+                                <summary class="programa__one__titulo">Front End G4 - ONE</summary>
+                            <li class="programa">
                                 <ul class="programa__one__contendio">
                                     <li class="programa__one__item">Layoud, flexbox y arquitectura CSS</li>
                                     <li class="programa__one__item">Principios de JavaScript</li>
@@ -239,13 +247,18 @@
                                     <li class="programa__one__item">Crear, Leer, Actualizar y Eliminar (CRUD)</li>
                                 </ul>
                             </li>
-                            <li class="programa__one__titulo">React G4 - ONE
+                        </details>
+                        <details>
+                        <summary class="programa__one__titulo">React G4 - ONE</summary>
+                            <li class="programa">
                                 <ul class="programa__one__contendio">
                                     <li class="programa__one__item">React</li>
                                 </ul>
                             </li>
                         </ul>
+                    </details>
                     </td>
+                </details>
                     <td class="curso__ponencia__fecha">Nov-2022 a actualidad</td>
                 </tr>
             </table>

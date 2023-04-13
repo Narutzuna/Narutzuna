@@ -1,0 +1,70 @@
+.cursos_ponencias{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.cursos__ponencias__titulo{
+    font-family: var(--contenido-cursiva);
+    text-align: center;
+    margin: 1rem;
+}
+
+.cursos__ponencias__tabla{
+    padding: 0.3rem;
+}
+
+.cursos__ponencias__nombre, 
+.cursos__ponencias__parrafo, 
+.curso__ponencia__fecha{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cursos__ponencias__nombre{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background-color: var(--rojo-resaltar-degradado);
+}
+
+.cursos__ponencias__parrafo{
+    margin: 0;
+    padding: 0.5rem;
+    background-color: var(--azul-resaltar-degradado);
+    list-style: none;
+}
+
+.curso__ponencia__fecha{
+    background-color: var(--amarillo-pastel);
+    margin: 0;
+    padding: 1rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+.programa__one__titulo{
+    list-style: none;
+    /* background-color: var(--rojo-resaltar-degradado); */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5rem;
+    border-bottom: 2px solid #000;
+}
+
+.programa__one__item, .programa__one__contendio, .programa{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.programa__one__item{
+    text-align: center;
+    background-color: var(--verde-tabla-background);
+    line-height: 1.2rem;
+}
+
+details[open]{
+    background: #04d3eead;
+}
+
+details .summary::after{
+    content: "👇"
+}

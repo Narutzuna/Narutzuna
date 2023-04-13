@@ -1,5 +1,7 @@
 .experienciaLaboral{
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .experienciaLaboral__titulo{
@@ -16,7 +18,7 @@
     font-family: var(--contenido-normal);
     text-align: center;
     padding: 1rem;
-    background: #e6f0af
+    background: var(--verde-tabla-background);
 }
 
 .experenciaLaboral__tabla--parrafo, .experenciaLaboral__tabla__item{
