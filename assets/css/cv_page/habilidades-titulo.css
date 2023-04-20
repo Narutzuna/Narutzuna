@@ -1,0 +1,40 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades__titulo{
+    text-align: center;
+    font-family: var(--contenido-cursiva);
+    margin: 1rem;
+}
+
+.habilidades__titulo__item{
+    margin-left: 1rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.habilidades__titulo__item:nth-child(2){
+    line-height: 1rem;
+}
+
+.cita {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.cita__virgilio{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.virgilio{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.411);
+}
