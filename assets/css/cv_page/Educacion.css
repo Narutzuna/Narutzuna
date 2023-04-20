@@ -20,7 +20,8 @@
     background-color: var(--verde-tabla-background);
 }
 
-.educacion__titulo__entidad, .educacion__titulo__parrafo{
+.educacion__titulo__entidad, 
+.educacion__titulo__parrafo{
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -42,4 +43,18 @@
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     text-align: center;
+}
+
+@media screen and (min-width:481px){
+    .educacion__titulo__entidad, 
+    .educacion__titulo__parrafo{
+    font-size: 1.2rem;
+}
+}
+
+@media screen and (min-width: 769px){
+      .educacion__titulo__parrafo__anho{
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
 }

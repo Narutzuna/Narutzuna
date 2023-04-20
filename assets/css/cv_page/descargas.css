@@ -3,3 +3,9 @@
     margin-bottom: 1rem;
     margin-left: 5.5rem;
 }
+
+@media screen and (min-width:481px){
+    .descargar{
+        margin-left: 9.5rem;
+    }   
+}

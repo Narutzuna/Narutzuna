@@ -2,6 +2,12 @@
     padding-right: 2rem;
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:481px){
+    .banner__contenido{
+        padding-right: 2.5rem;
+    }         
+}
+
+@media screen and (min-width:769px){
     
 }

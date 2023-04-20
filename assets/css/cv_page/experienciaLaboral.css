@@ -21,7 +21,8 @@
     background: var(--verde-tabla-background);
 }
 
-.experenciaLaboral__tabla--parrafo, .experenciaLaboral__tabla__item{
+.experenciaLaboral__tabla--parrafo, 
+.experenciaLaboral__tabla__item{
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -32,7 +33,8 @@
     margin: 0;
 }
 
-.experenciaLaboral__tabla__item, .experenciaLaboral__lista{
+.experenciaLaboral__tabla__item, 
+.experenciaLaboral__lista{
     background: var(--azul-resaltar-degradado);
     margin: 0;
 }
@@ -49,4 +51,19 @@
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     text-align: center;
+}
+
+@media screen and (min-width: 481px){
+    .experenciaLaboral__tabla--parrafo, 
+    .experenciaLaboral__tabla__item
+    .experenciaLaboral__tabla--fecha{
+        font-size: 1.2rem; 
+    }
+}
+
+@media screen and (min-width: 769px){
+    .experenciaLaboral__tabla--fecha{
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
 }

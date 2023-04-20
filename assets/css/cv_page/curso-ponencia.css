@@ -68,3 +68,16 @@ details[open]{
 details .summary::after{
     content: "👇"
 }
+
+@media screen and (min-width: 481px){
+    .cursos__ponencias__parrafo{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 769px){
+      .curso__ponencia__fecha{
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+}
