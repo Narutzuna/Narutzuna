@@ -6,8 +6,10 @@
     margin-left: 1rem;
 }
 
-@media screen and (min-width:700px){
+@media screen and (min-width: 1232px){
     .formaciones__contenido{
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
     }
 }
