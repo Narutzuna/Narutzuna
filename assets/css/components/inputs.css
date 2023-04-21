@@ -17,12 +17,12 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    border: 5px solid #f7c00c;
+    border: 2px solid #f7c00c;
     border-radius: 10px;
 }
 
 .button:hover{
-    background-color:#f7c00c ;
-    font-size: 1.4rem;
+    background-color:#f5cb44f6 ;
+    font-size: 1.2rem;
     cursor: grab;
 }

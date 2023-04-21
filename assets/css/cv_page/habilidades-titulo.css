@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.habilidades__contenido{
+    border:solid var(--amarillo-pastel);
+    margin: 2rem 1rem;
+}
+
 .habilidades__titulo{
     text-align: center;
     font-family: var(--contenido-cursiva);
@@ -10,15 +15,12 @@
 }
 
 .habilidades__titulo__item{
-    margin-left: 1rem;
+    margin: 0 1rem 0rem 1rem;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     list-style: none;
     line-height: 2rem;
-}
-
-.habilidades__titulo__item:nth-child(2){
-    line-height: 1rem;
+    padding-left: 1rem;
 }
 
 .cita {
@@ -45,5 +47,32 @@
 {
    font-size: 1.2rem; 
 }
+}
+
+@media screen and (min-width:769px){
+    .habilidades{
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+
+    .habilidades__titulo__item{
+        max-width: 400px;
+        flex-wrap: wrap;
+    }
+
+    .habilidades__titulo__item:hover{
+        background-color: var(--rojo-pastel);
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    }
+
+@media screen and (min-width:935px){
+    .virgilio, 
+    .cita__virgilio{
+        font-size: 1.2rem;
+        text-align: right;
+    }
 
 }
